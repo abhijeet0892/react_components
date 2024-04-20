@@ -1,4 +1,4 @@
-import { Parallax1, ScrollReveal } from "./components";
+import { Parallax1, ScrollReveal, ImageAccordionExample } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 
@@ -14,6 +14,11 @@ const routes = [
     name: "ScrollReveal",
     path: "/gsap/scroll-reveal",
     element: <ScrollReveal />,
+  },
+  {
+    name: "ImageAccordion",
+    path: "/accordions/image-accordion",
+    element: <ImageAccordionExample />,
   },
 ];
 
