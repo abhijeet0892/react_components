@@ -1,4 +1,9 @@
-import { Parallax1, ScrollReveal, ImageAccordionExample } from "./components";
+import {
+  Parallax1,
+  ScrollReveal,
+  ImageAccordionExample,
+  Login1,
+} from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 
@@ -19,6 +24,11 @@ const routes = [
     name: "ImageAccordion",
     path: "/accordions/image-accordion",
     element: <ImageAccordionExample />,
+  },
+  {
+    name: "Login1",
+    path: "/logins/login1",
+    element: <Login1 />,
   },
 ];
 
