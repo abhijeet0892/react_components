@@ -1,4 +1,4 @@
-import { Parallax1 } from "./components";
+import { Parallax1, ScrollReveal } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
 
@@ -9,6 +9,11 @@ const routes = [
     name: "Parallax1",
     path: "/parallax/parallax-1",
     element: <Parallax1 />,
+  },
+  {
+    name: "ScrollReveal",
+    path: "/gsap/scroll-reveal",
+    element: <ScrollReveal />,
   },
 ];
 
