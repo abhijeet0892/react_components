@@ -3,6 +3,8 @@ import {
   ScrollReveal,
   ImageAccordionExample,
   Login1,
+  Sidebar1,
+  Sidebar2,
 } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -29,6 +31,16 @@ const routes = [
     name: "Login1",
     path: "/logins/login1",
     element: <Login1 />,
+  },
+  {
+    name: "Sidebar1",
+    path: "/sidebars/sidebar1",
+    element: <Sidebar1 />,
+  },
+  {
+    name: "Sidebar2",
+    path: "/sidebars/sidebar2",
+    element: <Sidebar2 />,
   },
 ];
 
