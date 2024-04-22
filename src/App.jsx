@@ -6,6 +6,9 @@ import {
   Sidebar1,
   Sidebar2,
   Modal1,
+  DeleteButton,
+  TrashButton,
+  Card1,
 } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -47,6 +50,21 @@ const routes = [
     name: "Modal1",
     path: "/modals/Modal1",
     element: <Modal1 />,
+  },
+  {
+    name: "DeleteButton",
+    path: "/buttons/delete-button",
+    element: <DeleteButton />,
+  },
+  {
+    name: "TrashButton",
+    path: "/buttons/trash-button",
+    element: <TrashButton />,
+  },
+  {
+    name: "Card1",
+    path: "/cards/Card1",
+    element: <Card1 />,
   },
 ];
 
