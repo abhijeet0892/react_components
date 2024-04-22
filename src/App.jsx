@@ -9,6 +9,7 @@ import {
   DeleteButton,
   TrashButton,
   Card1,
+  PasswordStrength,
 } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -65,6 +66,11 @@ const routes = [
     name: "Card1",
     path: "/cards/Card1",
     element: <Card1 />,
+  },
+  {
+    name: "PasswordStrength",
+    path: "/controls/password-strength",
+    element: <PasswordStrength />,
   },
 ];
 

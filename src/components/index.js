@@ -6,3 +6,4 @@ export * from "./sidebars";
 export * from "./modals";
 export * from "./buttons";
 export * from "./cards";
+export * from "./controls";
