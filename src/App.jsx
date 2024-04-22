@@ -21,7 +21,7 @@ import "./App.css";
 
 const routes = [
   {
-    name: "Parallax1",
+    name: "Parallax-1",
     path: "/parallax/parallax-1",
     element: <Parallax1 />,
   },
@@ -36,22 +36,22 @@ const routes = [
     element: <ImageAccordionExample />,
   },
   {
-    name: "Login1",
+    name: "Login-1",
     path: "/logins/login1",
     element: <Login1 />,
   },
   {
-    name: "Sidebar1",
+    name: "Sidebar-1",
     path: "/sidebars/sidebar1",
     element: <Sidebar1 />,
   },
   {
-    name: "Sidebar2",
+    name: "Sidebar-2",
     path: "/sidebars/sidebar2",
     element: <Sidebar2 />,
   },
   {
-    name: "Modal1",
+    name: "Modal-1",
     path: "/modals/Modal1",
     element: <Modal1 />,
   },
@@ -66,7 +66,7 @@ const routes = [
     element: <TrashButton />,
   },
   {
-    name: "Card1",
+    name: "Card-1",
     path: "/cards/Card1",
     element: <Card1 />,
   },
