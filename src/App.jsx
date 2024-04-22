@@ -10,6 +10,9 @@ import {
   TrashButton,
   Card1,
   PasswordStrength,
+  Widget,
+  Widget_1,
+  Widget_2,
 } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -71,6 +74,21 @@ const routes = [
     name: "PasswordStrength",
     path: "/controls/password-strength",
     element: <PasswordStrength />,
+  },
+  {
+    name: "Pagination",
+    path: "/widgets/pagination",
+    element: <Widget />,
+  },
+  {
+    name: "Widget-1",
+    path: "/widgets/widget-1",
+    element: <Widget_1 />,
+  },
+  {
+    name: "Widget-2",
+    path: "/widgets/widget-2",
+    element: <Widget_2 />,
   },
 ];
 
