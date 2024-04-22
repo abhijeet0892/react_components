@@ -5,6 +5,7 @@ import {
   Login1,
   Sidebar1,
   Sidebar2,
+  Modal1,
 } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -41,6 +42,11 @@ const routes = [
     name: "Sidebar2",
     path: "/sidebars/sidebar2",
     element: <Sidebar2 />,
+  },
+  {
+    name: "Modal1",
+    path: "/modals/Modal1",
+    element: <Modal1 />,
   },
 ];
 
