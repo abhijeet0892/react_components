@@ -13,6 +13,7 @@ import {
   Widget,
   Widget_1,
   Widget_2,
+  Dropdown1Example,
 } from "./components";
 
 import { createBrowserRouter, RouterProvider, Link } from "react-router-dom";
@@ -89,6 +90,11 @@ const routes = [
     name: "Widget-2",
     path: "/widgets/widget-2",
     element: <Widget_2 />,
+  },
+  {
+    name: "Dropdown1Example",
+    path: "/dropdown1/dropdown1example",
+    element: <Dropdown1Example />,
   },
 ];
 
